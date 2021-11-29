@@ -1,0 +1,104 @@
+.contact-main {
+    margin: auto;
+    /* background: #16202a; */
+    padding: 33px 0;
+}
+.contact-header {
+    text-align: center;
+}
+.contact-header h2 {
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 4rem;
+    color: black;
+}
+.contact-header p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: red;
+}
+.contact-wrap {
+    text-align: center;
+}
+.contact-wrap h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 5rem;
+    margin-top: 60px;
+    color: black;
+}
+.contact-wrap p {
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 3rem;
+    padding: 0 34rem;
+    margin-top: 2rem;
+    color: black;
+}
+.contact-wrap p .link-button{
+    text-decoration: underline;
+    color: black;
+}
+.input-main-box input {
+    max-width: 500px;
+    font-size: 2.3rem;
+    padding: 25px 20px;
+    border-radius: 0.7rem;
+    border: 5px double white;
+    box-shadow: none;
+    outline: none;
+    /* background: transparent; */
+    color: black;
+}
+.input-main-box input:focus {
+    background-color: transparent;
+    border: 2px solid #72a9a3;
+    color: #898989;
+}
+.input-main-box {
+    margin: auto;
+    max-width: 30%;
+    margin-top: 52px;
+}
+.checkbox-wrap {
+    margin: auto;
+    width: 28%;
+    margin-top: 20px;
+}
+.checkbox-wrap input{
+    float: none;
+    font-size: 20px;
+}
+.checkbox-wrap label{
+    color: black;
+    font-size: 15px;
+}
+.checkbox-wrap small.text-muted.form-text {
+    padding-left: 15px;
+    font-size: 12px;
+}
+.checkbox-wrap small.text-muted.form-text a{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.contact-main button{
+    background-color: #80ebc7;
+}
+.button-wrap {
+    text-align: center;
+    margin-top: 30px;
+}
+.button-wrap button{
+    font-size: 16px;
+    color: #000;
+    border: none;
+    outline: none;
+    padding: 5px 25px;
+}
+.recaptcha-box{
+    margin: auto;
+    width: 23%;
+    margin-top: 30px;
+}
